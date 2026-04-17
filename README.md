@@ -135,7 +135,7 @@ This project utilizes LangChain's tool-calling architecture, allowing the AI to 
 
   - Trigger: Keywords related to "weather", "temperature", or "climate".
 
-## 📰 News Tool
+##  📰 News Tool
   - Source: Tavily Search API.
 
   - Functionality: Fetches the most recent news headlines and verified links for a specific city.
