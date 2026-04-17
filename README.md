@@ -68,8 +68,8 @@ The system follows a linear request-response flow powered by an intelligent "bra
 ```bash
 git clone [https://github.com/bhautik2005/City_Agent.git](https://github.com/bhautik2005/City_Agent.git)
 cd City_Agent
-
-
+```
+```
 2️⃣ Backend Setup
 Bash
 cd backend
@@ -114,6 +114,7 @@ JSON
   "status": "success",
   "response": "The current temperature in Rajkot is 32°C with clear skies and 40% humidity."
 }
+```
 🛠️ Tools & Core AI Logic
 This project utilizes LangChain's tool-calling architecture, allowing the AI to interact with the real-world.
 
