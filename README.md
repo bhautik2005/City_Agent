@@ -128,21 +128,21 @@ JSON
 ### 🛠️ Tools & Core AI Logic
 This project utilizes LangChain's tool-calling architecture, allowing the AI to interact with the real-world.
 
-##🌦️ Weather Tool
+## 🌦️ Weather Tool
   - Source: OpenWeather API.
 
   - Functionality: Fetches temperature, weather conditions (rain, clear, clouds), and humidity.
 
   - Trigger: Keywords related to "weather", "temperature", or "climate".
 
-##📰 News Tool
+## 📰 News Tool
   - Source: Tavily Search API.
 
   - Functionality: Fetches the most recent news headlines and verified links for a specific city.
 
   - Trigger: Keywords related to "news", "updates", or "what's happening".
 
-##🤖 Agent Logic
+## 🤖 Agent Logic
   - Powered by LangChain + Mistral AI, the agent handles:
 
   - Intention Analysis: Determining if a tool call is necessary based on the user's query.
@@ -151,7 +151,7 @@ This project utilizes LangChain's tool-calling architecture, allowing the AI to 
 
   - Synthesis: Combining raw data into a conversational, accurate, and human-friendly response.
 
-##💡 Key Learnings
+## 💡 Key Learnings
  - Agentic Design: Implemented autonomous decision-making using LLM tool calling.
 
  - API Orchestration: Successfully integrated and managed multiple real-time data streams.
@@ -160,7 +160,7 @@ This project utilizes LangChain's tool-calling architecture, allowing the AI to 
 
  - State Management: Handled asynchronous API states (loading, success, error) to maintain a smooth UI/UX.
 
-##🚀 Future Improvements
+## 🚀 Future Improvements
  - 🔄 Streaming Responses: Implement real-time token streaming for a more interactive "typing" chat experience.
 
  - 🧠 Persistent Memory: Enable the AI to remember previous context within a conversation session.
@@ -169,9 +169,9 @@ This project utilizes LangChain's tool-calling architecture, allowing the AI to 
 
  - 🌍 Cloud Deployment: Host the backend on Render/AWS and the frontend on Vercel.
 
-##🧩 Multi-Agent Architecture: Transition to a Planner-Executor model to handle complex, multi-step queries.
+## 🧩 Multi-Agent Architecture: Transition to a Planner-Executor model to handle complex, multi-step queries.
 
-👨‍💻 Author
+### 👨‍💻 Author
 Bhautik Gondaliya Full Stack & AI/ML  Developer
 
 © 2026 City AI Agent Project
