@@ -50,23 +50,13 @@ User → React Frontend → Flask API → LangChain Agent → Tools (Weather + N
 
 ## 📸 Screenshots
 
-### 💬 Chat Interface
-![Chat UI](https://github.com/bhautik2005/City_Agent/blob/f70c40421cb189c1d5a5df576debe3d713affbc5/Screenshot%202026-04-17%20093526.png)
+| 💬 Chat UI | 🌤️ Weather |
+|-----------|-----------|
+| ![](https://github.com/bhautik2005/City_Agent/blob/f70c40421cb189c1d5a5df576debe3d713affbc5/Screenshot%202026-04-17%20093526.png) | ![](https://github.com/bhautik2005/City_Agent/blob/f70c40421cb189c1d5a5df576debe3d713affbc5/Screenshot%202026-04-17%20093403.png) |
 
----
-
-### 🌤️ Weather Response
-![Weather](https://github.com/bhautik2005/City_Agent/blob/f70c40421cb189c1d5a5df576debe3d713affbc5/Screenshot%202026-04-17%20093403.png)
-
----
-
-### 📰 News Output
-![News](https://github.com/bhautik2005/City_Agent/blob/f70c40421cb189c1d5a5df576debe3d713affbc5/Screenshot%202026-04-17%20093430.png)
-
----
-
-### ⚡ Loading State
-![Loading](https://github.com/bhautik2005/City_Agent/blob/f70c40421cb189c1d5a5df576debe3d713affbc5/Screenshot%202026-04-17%20093554.png)
+| 📰 News Output | ⚡ Loading State |
+|--------------|----------------|
+| ![](https://github.com/bhautik2005/City_Agent/blob/f70c40421cb189c1d5a5df576debe3d713affbc5/Screenshot%202026-04-17%20093430.png) | ![](https://github.com/bhautik2005/City_Agent/blob/f70c40421cb189c1d5a5df576debe3d713affbc5/Screenshot%202026-04-17%20093554.png) |
 
 ---
 
