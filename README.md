@@ -171,7 +171,7 @@ This project utilizes LangChain's tool-calling architecture, allowing the AI to 
 
 ## 🧩 Multi-Agent Architecture: Transition to a Planner-Executor model to handle complex, multi-step queries.
 
-### 👨‍💻 Author
-Bhautik Gondaliya Full Stack & AI/ML  Developer
+ 👨‍💻 Author
+## Bhautik Gondaliya Full Stack & AI/ML  Developer
 
 © 2026 City AI Agent Project
