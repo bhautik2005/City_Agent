@@ -69,8 +69,9 @@ The system follows a linear request-response flow powered by an intelligent "bra
 git clone [https://github.com/bhautik2005/City_Agent.git](https://github.com/bhautik2005/City_Agent.git)
 cd City_Agent
 ```
-```
+
 2️⃣ Backend Setup
+```
 Bash
 cd backend
 python -m venv enve
@@ -82,17 +83,24 @@ enve\Scripts\activate
 source enve/bin/activate
 
 pip install -r requirements.txt
+
+```
 3️⃣ Environment Variables
+```
 Create a .env file inside the backend/ directory:
 
 Code snippet
 OPENWEATHER_API_KEY=your_openweather_api_key
 TAVILY_API_KEY=your_tavily_api_key
 MISTRAL_API_KEY=your_mistral_api_key
+```
 4️⃣ Run Backend
+```
 Bash
 python app.py
+```
 5️⃣ Frontend Setup
+```
 Bash
 cd ../frontend
 npm install
@@ -114,6 +122,7 @@ JSON
   "status": "success",
   "response": "The current temperature in Rajkot is 32°C with clear skies and 40% humidity."
 }
+```
 ```
 🛠️ Tools & Core AI Logic
 This project utilizes LangChain's tool-calling architecture, allowing the AI to interact with the real-world.
@@ -160,7 +169,7 @@ State Management: Handled asynchronous API states (loading, success, error) to m
 🌍 Cloud Deployment: Host the backend on Render/AWS and the frontend on Vercel.
 
 🧩 Multi-Agent Architecture: Transition to a Planner-Executor model to handle complex, multi-step queries.
-
+```
 👨‍💻 Author
 Bhautik Gondaliya Full Stack & AI/ML  Developer
 
