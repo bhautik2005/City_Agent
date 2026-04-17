@@ -73,6 +73,7 @@ cd backend
 python -m venv enve
 enve\Scripts\activate
 pip install -r requirements.txt
+
 3️⃣ Environment Variables
 
 Create .env file:
@@ -95,19 +96,41 @@ Response:
   "status": "success",
   "response": "Weather in Rajkot..."
 }
+🛠️ Tools Used (Core AI Logic)
+
+This project uses LangChain tool-calling architecture, where the AI dynamically selects tools based on user queries.
+
+🌦️ Weather Tool
+Uses OpenWeather API
+Fetches:
+Temperature
+Weather condition
+Humidity
+Triggered when user asks about weather
+📰 News Tool
+Uses Tavily Search API
+Fetches:
+Latest city news
+Headlines + links
+Triggered when user asks about news
+🤖 Agent Logic
+Powered by LangChain + Mistral AI
+Decides:
+When to call tools
+How to combine responses
+Ensures real-time, accurate output
 💡 Key Learnings
 Implemented Agentic AI with tool calling
 Integrated multiple real-time APIs
-Built full-stack AI system
+Built a full-stack AI system
 Managed CORS, async calls, and UI states
-Designed user-friendly chat interface
+Designed a user-friendly chat interface
 🚀 Future Improvements
 🔄 Streaming responses (real-time typing)
 🧠 Memory-based conversations
 📊 Structured UI (cards for news/weather)
 🌍 Deployment (Render + Vercel)
 🧩 Multi-agent architecture (planner + executor)
-
 👨‍💻 Author
 
 Bhautik Gondaliya
