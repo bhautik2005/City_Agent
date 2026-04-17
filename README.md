@@ -64,7 +64,7 @@ The system follows a linear request-response flow powered by an intelligent "bra
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone Repository
+## 1️⃣ Clone Repository
 ```bash
 git clone [https://github.com/bhautik2005/City_Agent.git](https://github.com/bhautik2005/City_Agent.git)
 cd City_Agent
@@ -105,6 +105,7 @@ Bash
 cd ../frontend
 npm install
 npm start
+```
 🔌 API Endpoint
 POST /chat
 Used to send a message to the AI agent.
@@ -122,54 +123,54 @@ JSON
   "status": "success",
   "response": "The current temperature in Rajkot is 32°C with clear skies and 40% humidity."
 }
-```
-```
-🛠️ Tools & Core AI Logic
+
+ 
+### 🛠️ Tools & Core AI Logic
 This project utilizes LangChain's tool-calling architecture, allowing the AI to interact with the real-world.
 
-🌦️ Weather Tool
-Source: OpenWeather API.
+##🌦️ Weather Tool
+  - Source: OpenWeather API.
 
-Functionality: Fetches temperature, weather conditions (rain, clear, clouds), and humidity.
+  - Functionality: Fetches temperature, weather conditions (rain, clear, clouds), and humidity.
 
-Trigger: Keywords related to "weather", "temperature", or "climate".
+  - Trigger: Keywords related to "weather", "temperature", or "climate".
 
-📰 News Tool
-Source: Tavily Search API.
+##📰 News Tool
+  - Source: Tavily Search API.
 
-Functionality: Fetches the most recent news headlines and verified links for a specific city.
+  - Functionality: Fetches the most recent news headlines and verified links for a specific city.
 
-Trigger: Keywords related to "news", "updates", or "what's happening".
+  - Trigger: Keywords related to "news", "updates", or "what's happening".
 
-🤖 Agent Logic
-Powered by LangChain + Mistral AI, the agent handles:
+##🤖 Agent Logic
+  - Powered by LangChain + Mistral AI, the agent handles:
 
-Intention Analysis: Determining if a tool call is necessary based on the user's query.
+  - Intention Analysis: Determining if a tool call is necessary based on the user's query.
 
-Execution: Running the appropriate tool and gathering raw API data.
+  - Execution: Running the appropriate tool and gathering raw API data.
 
-Synthesis: Combining raw data into a conversational, accurate, and human-friendly response.
+  - Synthesis: Combining raw data into a conversational, accurate, and human-friendly response.
 
-💡 Key Learnings
-Agentic Design: Implemented autonomous decision-making using LLM tool calling.
+##💡 Key Learnings
+ - Agentic Design: Implemented autonomous decision-making using LLM tool calling.
 
-API Orchestration: Successfully integrated and managed multiple real-time data streams.
+ - API Orchestration: Successfully integrated and managed multiple real-time data streams.
 
-Full-Stack Development: Connected a Python-based AI backend with a modern React frontend seamlessly.
+ - Full-Stack Development: Connected a Python-based AI backend with a modern React frontend seamlessly.
 
-State Management: Handled asynchronous API states (loading, success, error) to maintain a smooth UI/UX.
+ - State Management: Handled asynchronous API states (loading, success, error) to maintain a smooth UI/UX.
 
-🚀 Future Improvements
-🔄 Streaming Responses: Implement real-time token streaming for a more interactive "typing" chat experience.
+##🚀 Future Improvements
+ - 🔄 Streaming Responses: Implement real-time token streaming for a more interactive "typing" chat experience.
 
-🧠 Persistent Memory: Enable the AI to remember previous context within a conversation session.
+ - 🧠 Persistent Memory: Enable the AI to remember previous context within a conversation session.
 
-📊 Structured UI: Render specialized cards/charts for weather forecasts and organized news grids.
+ - 📊 Structured UI: Render specialized cards/charts for weather forecasts and organized news grids.
 
-🌍 Cloud Deployment: Host the backend on Render/AWS and the frontend on Vercel.
+ - 🌍 Cloud Deployment: Host the backend on Render/AWS and the frontend on Vercel.
 
-🧩 Multi-Agent Architecture: Transition to a Planner-Executor model to handle complex, multi-step queries.
-```
+##🧩 Multi-Agent Architecture: Transition to a Planner-Executor model to handle complex, multi-step queries.
+
 👨‍💻 Author
 Bhautik Gondaliya Full Stack & AI/ML  Developer
 
