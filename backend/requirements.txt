@@ -1,0 +1,9 @@
+flask
+flask-cors
+python-dotenv
+requests
+tavily-python
+langchain
+langchain-core
+langchain-mistralai
+rich
